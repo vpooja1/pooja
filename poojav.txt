@@ -1,0 +1,96 @@
+ b)31
+ c)20
+ a)100
+ c)62
+ a)9
+ b)K
+ a)P
+ b)FR
+ c)bccab
+ a)GOV
+ 2
+ 38
+ Window
+ Sun
+ BE
+    JAVA
+1)Ans : Java is an object oriented language. The Java programming language compiler-javac reads source files written in the Java programming language, and compiles them into bytecode class files. Optionally, the compiler can also process annotations found in source and class files using the Pluggable Annotation Processing. javac helps to compile the program.
+
+2)Ans : JDK-java development tool kit 
+   JRE- it used to write the program 
+   JVM- java virtual machine- JVM is a virtual machice which can not seen but it will helps to run the program and gives the output
+
+3)Ans : Limitation of array
+* An array which is formed will be homogeneous. 
+* In integer array only integer values can be stored, while in a float array only floating value and character array can have only characters.
+* no array can have values of two data types.
+* In array we can store the similar object.
+
+4)explain class ,object and signature of the class
+ Ans : class is located where the program is start and thw declartion is done in the class
+ A Java class is a set of object which shares common characteristics/ behavior and common properties/ attributes. There are certain points about Java Classes as mentioned below:
+Class is not a real-world entity. It is just a template or blueprint or prototype from which objects are created.
+Class does not occupy memory.
+Class is a group of variables of different data types and a group of methods.
+  
+
+5) Ans : Array-An array is a collection of similar data elements stored at contiguous memory locations. It is the simplest data structure where each data element can be accessed directly by only using its index number. 
+
+6) Ans : java file contains your Java source code. 
+  . class file contains the Java bytecode produced by the Java compiler.
+  . class files that run on the JVM to execute a Java application.
+
+7) Ans : The length of the array is 5
+
+8)Method Signature is the combination of a method's name and its parameter list. 
+  A class cannot have two methods with the same signature. If we declare two methods with the same signature, compilation error is thrown.
+  Method signature does not include the return type of a method.
+
+9)Ans : Java is the object orientend language.
+
+10) Ans : A variable is a characteristic that can be measured and that can assume different values.
+    Height, age, income, province or country of birth
+
+11)Ans : Fields that have the static modifier in their declaration are called class variables.
+      They are associated with the class, rather than with any object. Every instance of the class shares a class variable, which is in one fixed location in memory.	
+
+12)
+
+13)	  Ans : Java is a simple programming language and easy to understand because it does not contain complexities that exist in prior programming languages. ...
+*Object-Oriented.
+*Platform Independent.
+*Portable.
+*Secure.
+
+14)Ans : *int
+*double
+*char
+*flot
+*string
+*boolean
+*start
+
+15)
+
+16)Ans : System.out.println is a method in Java that prints a message to the standard output and appends a newline character.
+    It's widely used to display messages, data, and the results of operations during the execution
+
+17)Ans : 
+
+18)Ans :  . (dot) operator is used to access class, structure, or union members. 
+The member is specified by a postfix expression,a . (dot) operator, followed by a possibly qualified identifier or a pseudo-destructor name.
+
+19)Ans : Object class is the root or superclass of the class hierarchy, which is present in java. lang package. All predefined classes and user-defined classes are the subclasses from Object class.
+
+20)Ans : list 10 java keywords
+            byte
+            else
+            throws
+            case
+            static 
+            class
+            args
+			char
+			final
+			void
+			
