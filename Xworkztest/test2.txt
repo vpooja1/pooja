@@ -1,0 +1,102 @@
+1)d.Maternal uncle
+2)c.Fathet-in-law
+3)a.Brother
+4)c.Father
+5)c.Grandson
+6)c.X+A*Y
+7)c.R
+8)b.Brother-in-law
+9)a.father
+10)c.s
+11)a.10kms
+12)b.south
+13)a.South-West
+14)b)South-East  
+                 Java test
+1)Ans : true
+2)Ans : 10,110
+3)Ans : error
+4)Ans : The main() method is static so that JVM can invoke it without instantiating the class. This also saves the unnecessary wastage of memory which would have been used by the object declared only for calling the main() method by the JVM.
+5)Ans : class ReverseArray {
+    public static void main(String[] args) {
+        int[] inputArray = {10, 45, 7, 9, 2};
+        System.out.println("Original Array: " + inputArray);
+		reverseArray(inputArray);
+		System.out.println("Reversed Array: " + inputArray);
+    }
+	public static void reverseArray(int[] array) 
+	{
+        int start = 0;
+        int end = array.length - 1;
+		while (start < end) {
+          int temp = array[start];
+            array[start] = array[end];
+            array[end] = temp;
+            start++;
+            end--;
+        }
+    }
+}
+
+6)Ans : public class Main {
+  public static void main(String[] args) {
+    int[] input = {2, 5, 4, 8, 2, 3, 6, 2};
+    int[] output = sortDescendingAndRemoveDuplicates(input);
+    System.out.println(Arrays.toString(output);
+  }
+
+  public static int[] sortDescendingAndRemoveDuplicates(int[] arr) {
+    Arrays.sort(arr);
+    int i = 0;
+    for (int j = 0; j < arr.length; j++) {
+      if (arr[j] != arr[i]) {
+        i++;
+        arr[i] = arr[j];
+      }
+    }
+    int[] result = new int[i + 1];
+    for (int k = 0; k <= i; k++) {
+      result[k] = arr[i - k];
+    }
+    return result;
+  }
+}
+7)Ans : Done
+8)Ans : In Java, both this and this() are different from each other. 
+        this keyword is used to refer to the current object, through which the method is called.
+        this() is used to call one constructor from the other of the same class.
+9)Ans : class NumberSwap {
+    public static void main(String[] args) {
+        int a = 6;
+        int b = 8;
+
+        System.out.println("Before swapping:");
+        System.out.println("a =6 " + a);
+        System.out.println("b =8 " + b);
+
+        a = 6 + 8;
+        b = 6 - 8;
+        a = 6 + 8;
+
+        System.out.println("After swapping:");
+        System.out.println("a = 6" + a);
+        System.out.println("b = 8" + b);
+    }
+}
+10)Ans :  	class Pattern2 {
+    public static void main(String[] args) {
+	    System.out.println("&    &");
+        System.out.println("  &   ");
+        System.out.println("&    &");
+		
+        System.out.println("%  %  %");
+        System.out.println("%  &  %");
+        System.out.println("%  %  %");
+		
+		System.out.println("%  %  %");
+        System.out.println("%     %");
+        System.out.println("%  %  %");
+		
+		
+    }
+} 	
