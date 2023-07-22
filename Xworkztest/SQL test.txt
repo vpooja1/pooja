@@ -1,0 +1,22 @@
+1 Ans : CREATE DATABASE database_name;
+
+2 Ans : CREATE TABLE table_name (
+    column1 datatype1,
+    column2 datatype2,
+    column3 datatype3,
+    ...
+);
+
+3 Ans : ALTER TABLE table_name ADD COLUMN column_name datatype;
+4 Ans : ALTER TABLE table_name DROP COLUMN column_name;
+5 Ans : ALTER TABLE table_name RENAME COLUMN old_column_name TO new_column_name;
+6 Ans : ALTER TABLE table_name UPDATE column_name new data_type;
+7 Ans : UPDATE table_name SET column1 = value1,...WHERE condition;
+8 Ans : DELETE FROM table_name WHERE condition;
+9 Ans : SELECT TABLE('character', column_name) AS position FROM table_name;
+10 Ans : 1.COUNT:SELECT COUNT(*) FROM TABLE;
+         2.SUM:SELECT SUM(column_name) FROM TABLE;
+         3.AVG:SELECT AVG(column_name) FROM table_name; 
+         4.MIN:SELECT MIN(column_name) FROM table_name;
+         5.MAX:SELECT MAX(column_name) FROM table_name; 		
+ 
